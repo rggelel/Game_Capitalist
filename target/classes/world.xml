@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='file:/Users/flaviebilhac/Downloads/adventureISISServer/src/main/resources/jaxb/world/worldSchema.xsd'>
+    <name></name>
+    <logo></logo>
+    <money></money>
+    <score></score>
+    <totalangels></totalangels>
+    <activeangels></activeangels>
+    <angelbonus></angelbonus>
+    <lastupdate></lastupdate>
+    <products>
+        <product>
+            <id> 1 </id>
+            <name> CheeseBurger</name>
+            <logo>cheese.jpg</logo>
+            <cout>1,80</cout>
+            <croissance>1,07</croissance>
+            <revenu>2</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name>CrocMcDo</name>
+            <logo>crocmcdo.jpg</logo>
+            <cout>2</cout>
+            <croissance>1.07</croissance>
+            <revenu>2,20</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Frites</name>
+            <logo>frites.jpg</logo>
+            <cout>2,1</cout>
+            <croissance>1.07</croissance>
+            <revenu>2,30</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name>cheese_pal_1</name>
+            <logo>cheese.jpg</logo>
+            <seuil>25</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>VITESSE</typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name>cheese_pal_2</name>
+            <logo>cheese.jpg</logo>
+            <seuil>100</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name>cheese_pal_3</name>
+            <logo>cheese.jpg</logo>
+            <seuil>300</seuil>
+            <idcible>1</idcible>
+            <ratio>2</ratio>
+            <typeratio>ANGE</typeratio>
+            <unlocked></unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+    </upgrades>
+    <angelupgrades>
+    </angelupgrades>
+    <managers>
+    </managers>
+
+</world>
