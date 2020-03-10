@@ -11,10 +11,12 @@ package com.isis.adventureISISServer.adventureISISServer;
  */
 
 
+import javax.servlet.http.HttpServletRequest;
 import static javax.swing.text.html.FormSubmitEvent.MethodType.GET;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -31,9 +33,9 @@ public class WebServices {
     @GET
     @Path("world")
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-    public Response getWorld() {
-        System.out.println("test");
-        return Response.ok(services.getWorld()).build();
+    public Response getXml(@Context HttpServletRequest request) {
+    String username = request.getHeader("X-user");
+    return Response.ok(services.getWorld(username)).build();
     }
 
 }

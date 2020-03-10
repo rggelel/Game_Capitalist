@@ -25,13 +25,21 @@ public class Services {
     
     String path = "c:/temp";
 
-    public World readWorldFromXml() {
+    public World readWorldFromXml(String pseudo) {
         JAXBContext jaxbContext;
+        File f = new File(pseudo+"world.xml");
         try {
-            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+            InputStream input;
+            if(f.isFile()){
+                input = getClass().getClassLoader().getResourceAsStream(pseudo+"world.xml");
+            }
+            else{
+                input = getClass().getClassLoader().getResourceAsStream("world.xml");
+            }
             jaxbContext = JAXBContext.newInstance(World.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             world = (World) jaxbUnmarshaller.unmarshal(input);
+            
         } catch (JAXBException ex) {
             System.out.println("Erreur lecture du fichier:" + ex.getMessage());
             ex.printStackTrace();
@@ -39,10 +47,10 @@ public class Services {
         return world;
     }
 
-    public void saveWorldToXml(World world) {
+    public void saveWorldToXml(World world, String pseudo) {
         JAXBContext jaxbContext;
         try {
-            OutputStream output = new FileOutputStream("newWorld.xml");
+            OutputStream output = new FileOutputStream(pseudo+"newWorld.xml");
             jaxbContext = JAXBContext.newInstance(World.class);
             Marshaller march = jaxbContext.createMarshaller();
             march.marshal(world, output);
@@ -52,8 +60,8 @@ public class Services {
         }
     }
 
-    public World getWorld() {
-        return readWorldFromXml();
+    public World getWorld(String pseudo) {
+        return readWorldFromXml(pseudo);
     }
     
     
