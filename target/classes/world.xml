@@ -9,8 +9,8 @@ and open the template in the editor.
 <world
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='file:/Users/flaviebilhac/Downloads/adventureISISServer/src/main/resources/jaxb/world/worldSchema.xsd'>
-    <name>ISIS CAPITALIST</name>
-    <logo>logoIsis.jpg</logo>
+    <name>MCDO CAPITALIST</name>
+    <logo>webapp/icones/mcdo.jpg</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -21,7 +21,7 @@ and open the template in the editor.
         <product>
             <id> 1 </id>
             <name> CheeseBurger</name>
-            <logo>cheese.jpg</logo>
+            <logo>webapp/icones/cheese.jpg</logo>
             <cout>1,80</cout>
             <croissance>1,07</croissance>
             <revenu>2</revenu>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>cheese_pal_1</name>
-                    <logo>cheese.jpg</logo>
+                    <logo>webapp/icones/cheese.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>cheese_pal_2</name>
-                    <logo>cheese.jpg</logo>
+                    <logo>webapp/icones/cheese.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>cheese_pal_3</name>
-                    <logo>cheese.jpg</logo>
+                    <logo>webapp/icones/cheese.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -62,7 +62,7 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>CrocMcDo</name>
-            <logo>crocmcdo.jpg</logo>
+            <logo>webapp/icones/crocmcdo.jpg</logo>
             <cout>2</cout>
             <croissance>1.07</croissance>
             <revenu>2,20</revenu>
@@ -73,7 +73,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>croc_pal_1</name>
-                    <logo>crocmcdo.jpg</logo>
+                    <logo>webapp/icones/crocmcdo.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -82,7 +82,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>croc_pal_2</name>
-                    <logo>crocmcdo.jpg</logo>
+                    <logo>webapp/icones/crocmcdo.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -91,7 +91,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>croc_pal_3</name>
-                    <logo>crocmcdo.jpg</logo>
+                    <logo>webapp/icones/crocmcdo.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -103,7 +103,7 @@ and open the template in the editor.
         <product>
             <id>3</id>
             <name>Frites</name>
-            <logo>frites.jpg</logo>
+            <logo>webapp/icones/frites.jpg</logo>
             <cout>2,1</cout>
             <croissance>1.07</croissance>
             <revenu>2,30</revenu>
@@ -114,7 +114,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>frites_pal_1</name>
-                    <logo>frites.jpg</logo>
+                    <logo>webapp/icones/frites.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -123,7 +123,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>frites_pal_2</name>
-                    <logo>frites.jpg</logo>
+                    <logo>webapp/icones/frites.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -132,7 +132,130 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>frites_pal_3</name>
-                    <logo>frites.jpg</logo>
+                    <logo>webapp/icones/frites.jpg</logo>
+                    <seuil>300</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>ANGE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id> 4 </id>
+            <name> Chicken McNuggets</name>
+            <logo>webapp/icones/nuggets.jpg</logo>
+            <cout>3,10</cout>
+            <croissance>1,07</croissance>
+            <revenu>3,30</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>nuggets_pal_1</name>
+                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>nuggets_pal_2</name>
+                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>nuggets_pal_3</name>
+                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <seuil>300</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>ANGE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id> 5 </id>
+            <name> MacWrap Poulet et Bacon</name>
+            <logo>webapp/icones/macwrap.jpg</logo>
+            <cout>5,40</cout>
+            <croissance>1,07</croissance>
+            <revenu>5,60</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>macwrap_pal_1</name>
+                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>macwrap_pal_2</name>
+                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>macwrap_pal_3</name>
+                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <seuil>300</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>ANGE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+            <product>
+            <id> 6 </id>
+            <name> Menu Best Of Big Mac</name>
+            <logo>webapp/icones/bigmac.jpg</logo>
+            <cout>7,50</cout>
+            <croissance>1,07</croissance>
+            <revenu>7,70</revenu>
+            <vitesse>0</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>bigmac_pal_1</name>
+                    <logo>webapp/icones/bigmac.jpg</logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>bigmac_pal_2</name>
+                    <logo>webapp/icones/bigmac.jpg</logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>FALSE</unlocked>
+                </pallier>
+                <pallier>
+                    <name>bigmac_pal_3</name>
+                    <logo>webapp/icones/bigmac.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -145,7 +268,7 @@ and open the template in the editor.
     <allunlocks>
         <pallier>
             <name>debloquerTout</name>
-            <logo>mcdo.jpg</logo>
+            <logo>webapp/icones/mcdo.jpg</logo>
             <seuil>10000000</seuil>
             <idcible>-1</idcible>
             <ratio>0</ratio>
@@ -153,15 +276,19 @@ and open the template in the editor.
             <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
-    <upgrades>
-        
+    
+    
+    <upgrades>       
     </upgrades>
+    
     <angelupgrades>
     </angelupgrades>
+    
+    
     <managers>
         <pallier>
             <name>Equipier</name>
-            <logo>equipier.jpg</logo>
+            <logo>webapp/icones/equipier.jpg</logo>
             <seuil>50 000</seuil>
             <idcible>1</idcible>
             <ratio>0</ratio>
@@ -170,7 +297,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Hote</name>
-            <logo>hote.jpg</logo>
+            <logo>webapp/icones/hote.jpg</logo>
             <seuil>100000</seuil>
             <idcible>2</idcible>
             <ratio>0</ratio>
@@ -179,7 +306,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Charge de depot</name>
-            <logo>chargee_depot.jpg</logo>
+            <logo>webapp/icones/chargee_depot.jpg</logo>
             <seuil>200 000</seuil>
             <idcible>3</idcible>
             <ratio>0</ratio>
@@ -188,7 +315,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Formatrice</name>
-            <logo>formatrice.jpg</logo>
+            <logo>webapp/icones/formatrice.jpg</logo>
             <seuil>400 000</seuil>
             <idcible>4</idcible>
             <ratio>0</ratio>
@@ -197,7 +324,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Manager</name>
-            <logo>manager.jpg</logo>
+            <logo>webapp/icones/manager.jpg</logo>
             <seuil>800 000</seuil>
             <idcible>5</idcible>
             <ratio>0</ratio>
@@ -205,23 +332,15 @@ and open the template in the editor.
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Directeur adjoint</name>
-            <logo>dir_adjoint.jpg</logo>
+            <name>Directeur</name>
+            <logo>webapp/icones/dir_adjoint.jpg</logo>
             <seuil>1 600 000</seuil>
             <idcible>6</idcible>
             <ratio>0</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
-        <pallier>
-            <name>Directeur de restaurant</name>
-            <logo>directeur.jpg</logo>
-            <seuil>3 200 000</seuil>
-            <idcible>7</idcible>
-            <ratio>0</ratio>
-            <typeratio>VITESSE</typeratio>
-            <unlocked>false</unlocked>
-        </pallier>
+
     </managers>
 
 </world>
