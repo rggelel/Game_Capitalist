@@ -10,7 +10,7 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='file:/Users/flaviebilhac/Downloads/adventureISISServer/src/main/resources/jaxb/world/worldSchema.xsd'>
     <name>MCDO CAPITALIST</name>
-    <logo>webapp/icones/mcdo.jpg</logo>
+    <logo>icones/mcdo.jpg</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -21,7 +21,7 @@ and open the template in the editor.
         <product>
             <id> 1 </id>
             <name> CheeseBurger</name>
-            <logo>webapp/icones/cheese.jpg</logo>
+            <logo>icones/cheese.jpg</logo>
             <cout>1,80</cout>
             <croissance>1,07</croissance>
             <revenu>2</revenu>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>cheese_pal_1</name>
-                    <logo>webapp/icones/cheese.jpg</logo>
+                    <logo>icones/cheese.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>cheese_pal_2</name>
-                    <logo>webapp/icones/cheese.jpg</logo>
+                    <logo>icones/cheese.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>cheese_pal_3</name>
-                    <logo>webapp/icones/cheese.jpg</logo>
+                    <logo>icones/cheese.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -62,7 +62,7 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>CrocMcDo</name>
-            <logo>webapp/icones/crocmcdo.jpg</logo>
+            <logo>icones/crocmcdo.jpg</logo>
             <cout>2</cout>
             <croissance>1.07</croissance>
             <revenu>2,20</revenu>
@@ -73,7 +73,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>croc_pal_1</name>
-                    <logo>webapp/icones/crocmcdo.jpg</logo>
+                    <logo>icones/crocmcdo.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -82,7 +82,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>croc_pal_2</name>
-                    <logo>webapp/icones/crocmcdo.jpg</logo>
+                    <logo>icones/crocmcdo.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -91,7 +91,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>croc_pal_3</name>
-                    <logo>webapp/icones/crocmcdo.jpg</logo>
+                    <logo>icones/crocmcdo.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -103,7 +103,7 @@ and open the template in the editor.
         <product>
             <id>3</id>
             <name>Frites</name>
-            <logo>webapp/icones/frites.jpg</logo>
+            <logo>icones/frites.jpg</logo>
             <cout>2,1</cout>
             <croissance>1.07</croissance>
             <revenu>2,30</revenu>
@@ -114,7 +114,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>frites_pal_1</name>
-                    <logo>webapp/icones/frites.jpg</logo>
+                    <logo>icones/frites.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -123,7 +123,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>frites_pal_2</name>
-                    <logo>webapp/icones/frites.jpg</logo>
+                    <logo>icones/frites.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -132,7 +132,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>frites_pal_3</name>
-                    <logo>webapp/icones/frites.jpg</logo>
+                    <logo>icones/frites.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -144,7 +144,7 @@ and open the template in the editor.
         <product>
             <id> 4 </id>
             <name> Chicken McNuggets</name>
-            <logo>webapp/icones/nuggets.jpg</logo>
+            <logo>icones/nuggets.jpg</logo>
             <cout>3,10</cout>
             <croissance>1,07</croissance>
             <revenu>3,30</revenu>
@@ -155,7 +155,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>nuggets_pal_1</name>
-                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <logo>icones/nuggets.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -164,7 +164,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>nuggets_pal_2</name>
-                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <logo>icones/nuggets.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -173,7 +173,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>nuggets_pal_3</name>
-                    <logo>webapp/icones/nuggets.jpg</logo>
+                    <logo>icones/nuggets.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -185,7 +185,7 @@ and open the template in the editor.
         <product>
             <id> 5 </id>
             <name> MacWrap Poulet et Bacon</name>
-            <logo>webapp/icones/macwrap.jpg</logo>
+            <logo>icones/macwrap.jpg</logo>
             <cout>5,40</cout>
             <croissance>1,07</croissance>
             <revenu>5,60</revenu>
@@ -196,7 +196,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>macwrap_pal_1</name>
-                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <logo>icones/macwrap.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -205,7 +205,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>macwrap_pal_2</name>
-                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <logo>icones/macwrap.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -214,7 +214,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>macwrap_pal_3</name>
-                    <logo>webapp/icones/macwrap.jpg</logo>
+                    <logo>icones/macwrap.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -226,7 +226,7 @@ and open the template in the editor.
             <product>
             <id> 6 </id>
             <name> Menu Best Of Big Mac</name>
-            <logo>webapp/icones/bigmac.jpg</logo>
+            <logo>icones/bigmac.jpg</logo>
             <cout>7,50</cout>
             <croissance>1,07</croissance>
             <revenu>7,70</revenu>
@@ -237,7 +237,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>bigmac_pal_1</name>
-                    <logo>webapp/icones/bigmac.jpg</logo>
+                    <logo>icones/bigmac.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -246,7 +246,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>bigmac_pal_2</name>
-                    <logo>webapp/icones/bigmac.jpg</logo>
+                    <logo>icones/bigmac.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>3</ratio>
@@ -255,7 +255,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>bigmac_pal_3</name>
-                    <logo>webapp/icones/bigmac.jpg</logo>
+                    <logo>icones/bigmac.jpg</logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -268,7 +268,7 @@ and open the template in the editor.
     <allunlocks>
         <pallier>
             <name>debloquerTout</name>
-            <logo>webapp/icones/mcdo.jpg</logo>
+            <logo>icones/mcdo.jpg</logo>
             <seuil>10000000</seuil>
             <idcible>-1</idcible>
             <ratio>0</ratio>
@@ -288,7 +288,7 @@ and open the template in the editor.
     <managers>
         <pallier>
             <name>Equipier</name>
-            <logo>webapp/icones/equipier.jpg</logo>
+            <logo>icones/equipier.jpg</logo>
             <seuil>50 000</seuil>
             <idcible>1</idcible>
             <ratio>0</ratio>
@@ -297,7 +297,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Hote</name>
-            <logo>webapp/icones/hote.jpg</logo>
+            <logo>icones/hote.jpg</logo>
             <seuil>100000</seuil>
             <idcible>2</idcible>
             <ratio>0</ratio>
@@ -306,7 +306,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Charge de depot</name>
-            <logo>webapp/icones/chargee_depot.jpg</logo>
+            <logo>icones/chargee_depot.jpg</logo>
             <seuil>200 000</seuil>
             <idcible>3</idcible>
             <ratio>0</ratio>
@@ -315,7 +315,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Formatrice</name>
-            <logo>webapp/icones/formatrice.jpg</logo>
+            <logo>icones/formatrice.jpg</logo>
             <seuil>400 000</seuil>
             <idcible>4</idcible>
             <ratio>0</ratio>
@@ -324,7 +324,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Manager</name>
-            <logo>webapp/icones/manager.jpg</logo>
+            <logo>icones/manager.jpg</logo>
             <seuil>800 000</seuil>
             <idcible>5</idcible>
             <ratio>0</ratio>
@@ -333,7 +333,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Directeur</name>
-            <logo>webapp/icones/dir_adjoint.jpg</logo>
+            <logo>icones/dir_adjoint.jpg</logo>
             <seuil>1 600 000</seuil>
             <idcible>6</idcible>
             <ratio>0</ratio>
