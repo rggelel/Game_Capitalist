@@ -7,6 +7,7 @@ package com.isis.adventureISISServer.adventureISISServer;
 
 import generated.World;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -20,26 +21,29 @@ import javax.xml.bind.Unmarshaller;
  * @author flaviebilhac
  */
 public class Services {
-    
+
     static World world = new World();
-    
+
     String path = "c:/temp";
 
     public World readWorldFromXml(String pseudo) {
         JAXBContext jaxbContext;
-        File f = new File(pseudo+"world.xml");
+        InputStream input;
         try {
-            InputStream input;
-            if(f.isFile()){
-                input = getClass().getClassLoader().getResourceAsStream(pseudo+"world.xml");
+            try {
+            File f = new File(pseudo + "world.xml");
+    
+            input = new FileInputStream(f);
             }
-            else{
+            catch (Exception e) {
+                
                 input = getClass().getClassLoader().getResourceAsStream("world.xml");
+                System.out.println("pas de monde associé au joueur" + e.getMessage());
             }
             jaxbContext = JAXBContext.newInstance(World.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             world = (World) jaxbUnmarshaller.unmarshal(input);
-            
+
         } catch (JAXBException ex) {
             System.out.println("Erreur lecture du fichier:" + ex.getMessage());
             ex.printStackTrace();
@@ -50,7 +54,7 @@ public class Services {
     public void saveWorldToXml(World world, String pseudo) {
         JAXBContext jaxbContext;
         try {
-            OutputStream output = new FileOutputStream(pseudo+"newWorld.xml");
+            OutputStream output = new FileOutputStream(pseudo + "world.xml");
             jaxbContext = JAXBContext.newInstance(World.class);
             Marshaller march = jaxbContext.createMarshaller();
             march.marshal(world, output);
@@ -63,7 +67,5 @@ public class Services {
     public World getWorld(String pseudo) {
         return readWorldFromXml(pseudo);
     }
-    
-    
 
 }
