@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.isis.adventureISISServer.adventureISISServer.AdventureIsisServerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.321 s - in com.isis.adventureISISServer.adventureISISServer.AdventureIsisServerApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.766 s - in com.isis.adventureISISServer.adventureISISServer.AdventureIsisServerApplicationTests

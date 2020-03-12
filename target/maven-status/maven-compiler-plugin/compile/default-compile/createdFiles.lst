@@ -1,6 +1,10 @@
 generated/PalliersType.class
 generated/ProductType.class
+com/isis/adventureISISServer/adventureISISServer/Services.class
 com/isis/adventureISISServer/adventureISISServer/AdventureIsisServerApplication.class
+com/isis/adventureISISServer/adventureISISServer/WebServices.class
+com/isis/adventureISISServer/adventureISISServer/CORSResponseFilter.class
+com/isis/adventureISISServer/adventureISISServer/JerseyConfig.class
 generated/World.class
 generated/PallierType.class
 generated/ObjectFactory.class
