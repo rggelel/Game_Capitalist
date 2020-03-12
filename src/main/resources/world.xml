@@ -255,7 +255,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>bigmac_pal_3</name>
-                    <logo>bigmac.png</logo>
+                    <logo>bigmac.png     </logo>
                     <seuil>300</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
